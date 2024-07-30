@@ -2,6 +2,7 @@
 
 class Coba
 {
+
 }
 
 $a = new Coba();

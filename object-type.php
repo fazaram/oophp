@@ -39,5 +39,8 @@ echo "<br>";
 echo "Game :" . $produk2->getLabel();
 echo "<br>";
 
-$infoProduk1 = new CetakInfoProduk();
-echo $infoProduk1->cetak($produk1);
+$infoProduk = new CetakInfoProduk();
+echo "<br>";
+echo $infoProduk->cetak($produk1);
+echo "<br>";
+echo $infoProduk->cetak($produk2);

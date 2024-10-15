@@ -141,6 +141,5 @@ echo $produk2->getHarga();
 echo "<br>";
 $produk1->setJudul("One piece");
 $produk1->setPenerbit("Faza Rama Nugraha");
-
 echo $produk1->getJudul();
 echo $produk1->getPenerbit();

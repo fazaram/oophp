@@ -3,7 +3,7 @@ interface infoProduk
 {
   public function getInfoProduk();
 }
-;
+
 abstract class Produk
 {
 
